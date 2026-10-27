@@ -1,0 +1,6 @@
+/esp
+/.idea
+/.vscode
+**/target
+**/.gdb_history
+**/.DS_Store

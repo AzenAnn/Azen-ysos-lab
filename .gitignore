@@ -1,0 +1,11 @@
+# Rust build output and generated EFI system partitions
+target/
+esp/
+
+# Local editor, debugger and OS files
+.idea/
+.vscode/
+.gdb_history
+.DS_Store
+__pycache__/
+*.pyc

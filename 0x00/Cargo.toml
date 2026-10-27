@@ -1,0 +1,10 @@
+[workspace]
+members  = ["crates/boot"]
+resolver = "3"
+
+[profile.release-with-debug]
+debug    = true
+inherits = "release"
+
+[profile.release-with-debug.package."*"]
+debug = false
